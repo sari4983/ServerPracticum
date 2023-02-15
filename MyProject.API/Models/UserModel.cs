@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System;
 using MyProject.Common.DTOs;
 using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 
 namespace MyProject.WebAPI.Models
 {

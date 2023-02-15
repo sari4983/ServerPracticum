@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 
 namespace MyProject.Common.DTOs
 {
-    
     public class UserChildDTO
     {
         [Key, Required]

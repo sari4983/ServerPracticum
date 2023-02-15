@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 namespace MyProject.Repositories.Entities
 {
     public enum eGenderUser { נקבה, זכר };
+
     public class User
     {
         [Key, Required]
@@ -19,6 +21,6 @@ namespace MyProject.Repositories.Entities
         public DateTime DateOfBirth { get; set; }
         public eGenderUser Gender { get; set; }
         public string HMO { get; set; }
-       
+
     }
 }

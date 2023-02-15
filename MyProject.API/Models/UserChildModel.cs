@@ -10,9 +10,6 @@ namespace MyProject.WebAPI.Models
         public string LastName { get; set; }
         public string Tz { get; set; }
         public DateTime DateOfBirth { get; set; }
-        
-       [ForeignKey("Father")]
         public int IdParent { get; set; }
-        public UserDTO Father { get; set; }
     }
 }
